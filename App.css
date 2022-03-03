@@ -1,0 +1,122 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.card{
+  width: 100vw;
+  height: 75vmin;
+  background-color:rgb(255, 255, 255);
+  box-shadow: 1px 4px 12px 9px rgb(100, 94, 94);
+  position: relative;
+  display:flex;
+  justify-content: flex-end;
+  border-color: rgba(255, 255, 255, 0);
+  border-radius:20% ;
+}
+
+.text-contain{
+  width: 80%;
+  height: 9.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+}
+
+h3{
+  text-align: justify;
+  width: 85%;
+  height: 50rem;
+  margin: 0 auto;
+  font-size: 5vmin;
+  font-weight: 500;
+  padding-top: 6%;
+}
+
+.text-contain p{
+  text-align: end;
+  font-size: 5vmin;
+  font-weight: 550;
+  padding-right: 30%;
+  padding-top: .5rem;
+}
+
+.card i{
+  position: absolute;
+  right: 83%;
+  font-size: 15vw;
+}
+
+button{
+  width: 15vmin;
+  height: 15vmin;
+  border-radius: 50%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin-bottom: 1rem;
+  margin-right: 5%;
+  border-color: white;
+  cursor: pointer;
+  background-color: rgb(0, 0, 0);
+}
+
+button svg{
+  margin-left: .2rem;
+  width: 11vmin;
+  height: 11vmin;
+  stroke:rgb(255, 255, 255);
+}
+
+@media only screen and (min-width: 768px){
+
+  .card{
+    margin: 0 auto;
+    width: 45em;
+    height: 50vmin;
+  }
+
+  h3{
+    font-size: 4vmin;
+  }
+  .text-contain p{
+    font-size: 4vmin;
+    padding-right: 22%;
+  }
+  .card i{
+    font-size: 11vmax;
+    right: 81%;
+  }
+  
+  button{
+    width: 11vmin;
+    height: 11vmin;
+  }
+  button svg{
+    width: 9vmin;
+    height: 9vmin;
+  }
+}
+
+@media only screen and (min-width: 950px){
+
+  .card{
+    margin: 0 auto;
+    width: 55em;
+    height: 50vmin;
+  }
+} 
